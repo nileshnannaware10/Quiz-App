@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <header class="quiz-header">
+      <h1>Quiz App</h1>
+      <p id="timer">Time: 30s</p>
+    </header>
+    <div id="quiz">
+      <div id="question-container">
+        <h2 id="question">Loading...</h2>
+        <ul id="options"></ul>
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; Nilesh Nannaware. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
