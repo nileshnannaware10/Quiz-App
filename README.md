@@ -10,7 +10,6 @@ The **Quiz App** is a dynamic, responsive web-based application that allows user
 - **Timer Functionality**: Countdown timer for each question, enhancing user engagement.
 - **Score Tracking**: Displays the final score at the end of the quiz.
 - **Restart Functionality**: Users can restart the quiz and try again.
-- **Footer Section**: An aesthetically pleasing footer displaying copyright information.
 
 ## Technologies Used
 - **HTML**: For structuring the app's content.
